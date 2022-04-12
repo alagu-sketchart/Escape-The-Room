@@ -152,7 +152,7 @@ plays.scale = 0.9;
 
 //To set the score to change the ending
 score = 0;
-tasks = 4;}
+tasks = 0;}
 
 function draw() {
     if (gameState === START) {
@@ -189,7 +189,7 @@ function draw() {
             friend2.addImage("fri2.png", fri2);
             friend2.addImage("fri21.png", fre);
             friend2.scale = 0.7;
-            friend2.setCollider('rectangle', 0, 0, 90, 120);
+            friend2.setCollider('rectangle', 0, 0, 90, 130);
 
             friend3 = createSprite(800, 100, 50, 10);
             friend3.addImage("fri3.png", fri3);
